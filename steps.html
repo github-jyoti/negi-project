@@ -1,0 +1,59 @@
+v/////////////// Local Setup:
+
+$ mkdir Theme
+
+Create Local Directory has Name Theme
+
+$ cd Theme
+
+Change your terminal to the Theme directory
+
+$ git init
+
+tell your computer that Theme is a directory managed by the Git program
+
+& git add <file_name>
+
+tell the Git program you care about this file and want to track any changes from this point forward
+
+git commit -m "first commit"
+
+So far you've created a file and told Git about it, and now it's time to create a commit. Commit can be thought of as a milestone. Every time you accomplish some work, you can write a Git commit to store that version of your file, so you can go back later and see what it looked like at that point in time. Whenever you make a change to your file, you create a new version of that file, different from the previous one.
+
+$ git remote add origin https://github.com/Pradeepdht/Rudra.git
+
+Now we have connected our local copy of the Demo repository to its remote counterpart on GitHub.com
+
+
+
+
+git branch -M main
+
+$ git push -u origin main
+
+this command push your code to remote directory in main branch
+
+
+
+
+
+/////// creating new branch
+
+Use of branch:  These new branches can then be used to test changes to code without affecting the main project code.  If the changes work, the branch can be merged back with the main branch.
+
+$ git branch Theme
+
+this creates a new branch named Theme
+
+$ git branch
+
+shows you number of branches in your Repository
+
+$ git checkout Theme
+
+Shifting to your newly created branch Theme
+
+$ git merge Theme
+
+branch added into `master` branch
+
